@@ -1,17 +1,44 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
+import {
+  createBrowserRouter,
+  RouterProvider,
+} from "react-router-dom";
+import { BrowserRouter } from 'react-router-dom';
 import './index.css';
+import 'mdb-react-ui-kit/dist/css/mdb.min.css';
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
 import App from './App';
-import reportWebVitals from './reportWebVitals';
+// import ErrorPage from "./error-page";
+// import About from "./pages/About";
+
+
+
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-  <React.StrictMode>
+  <BrowserRouter>
     <App />
-  </React.StrictMode>
+  </BrowserRouter>
 );
 
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-reportWebVitals();
+//
+// const router = createBrowserRouter([
+//     {
+//         path: "/",
+//         element: <App />,
+//         errorElement: <ErrorPage />,
+//     },
+//     {
+//         path: "about",
+//         element: <About />,
+//
+//     },
+// ]);
+//
+// ReactDOM.createRoot(document.getElementById("root")).render(
+//     <React.StrictMode>
+//         <RouterProvider router={router} />
+//     </React.StrictMode>
+// );
