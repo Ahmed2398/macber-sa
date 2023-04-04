@@ -1,0 +1,21 @@
+.service-img{
+   max-width: 100%;
+    width: 50%;
+}
+.service-text h2{
+    font-size: 24px;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+.service-text p{
+    font-size: 20px;
+    line-height: 1.5;
+    margin: 10px 0;
+    font-weight: 400;
+    letter-spacing: 1px;
+}
+
+.industrie-img{
+    width: 25%;
+
+}

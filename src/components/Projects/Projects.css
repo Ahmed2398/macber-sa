@@ -1,0 +1,84 @@
+.nav-pills .nav-link{
+    background-color: var(--primary-color1);
+    text-align: center;
+}
+.nav-pills .nav-link:active {
+    color: yellow !important;
+    background-color: var(--primary-color1);
+}
+.nav-item .tab-link{
+    font-size: 22px !important;
+}
+
+.app_container{
+    width: 100%;
+    display: block;
+}
+.content_container{
+    width: 100%;
+    display: grid;
+    grid-template-columns:repeat(3, 1fr) ;
+    /*background-color: rgb(232,232,232);*/
+    grid-gap: 20px;
+    padding: 20px;
+}
+.content_card{
+    display: block;
+    background-color: #fff;
+}
+.content-card img{
+    width: 100%;
+}
+.p-card{
+    margin: 10px 20px;
+}
+.pop_up_container{
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgb(0,0,0,0.5);
+    padding-top: 2%;
+}
+.pop_up_body{
+    width: 85%;
+    height: 100%;
+    /*background-color: #fff;*/
+    margin: auto;
+    border-radius: 10px;
+
+}
+.pop_up_header{
+    width: 100%;
+    text-align: right;
+}
+
+.pdf{
+    width: 100% !important;
+    text-align: center;
+}
+.scroll {
+    overflow-y: scroll;
+    /*height: 130px;*/
+    /*width: 300px;*/
+    background-color: #fff;
+    /*margin: 0 0 10px 0;*/
+}
+.scroll::-webkit-scrollbar {
+    width:5px;
+}
+.scroll::-webkit-scrollbar-track {
+    /*-webkit-box-shadow:inset 0 0 6px rgba(0,0,0,0.3);*/
+    /*border-radius:5px;*/
+}
+.scroll::-webkit-scrollbar-thumb {
+    border-radius:5px;
+    -webkit-box-shadow: inset 0 0 6px red;
+}
+.pop_up_card{
+    text-align: center;
+}
+.nav-pills .nav-link.active, .nav-pills .show > .nav-link{
+    background-color: gray;
+}

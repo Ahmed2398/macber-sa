@@ -1,0 +1,11 @@
+.text-head-pros , .numbertext {
+    color: var(--primary-color1) !important;
+    font-weight: 400;
+    text-transform: capitalize;
+  }
+  .pra-head-pros{
+    color: rgb(124, 116, 116);
+  }
+  .rounded-custom {
+   border-radius: 1rem !important;
+ }

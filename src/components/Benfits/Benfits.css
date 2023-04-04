@@ -1,0 +1,62 @@
+.benfits-bg{
+  background-color: #f8f9fa !important;
+}
+.about-content-head{
+    background:var(--primary-color1);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+    font-family: Raleway-Bold;
+   
+  }
+  .about-content{
+   font-family: Raleway-mediuam;
+  font-style: normal;
+  font-weight: var(--font-weight-regular);
+  font-size: var(--font-size-16);
+  color: var(--secondary-color);
+  line-height: 23px;
+  align-items: center;
+  text-transform: capitalize;
+  }
+  
+  .box{
+    background: #FCF9FF;
+  box-shadow: 0px 0px 13px #DED6E8;
+  border-radius: 5px;
+  position: relative;
+  /* width: 350px; */
+  height: 250px;
+  }
+  
+  .card-content{
+    padding-top: 4rem;
+    text-align: center;
+    padding-bottom: 21px;
+  }
+  .content-p{
+    font-size: var(--font-size-16);
+    color: var(--secondary-color);
+    font-weight: var(--font-weight-regular);
+    align-items: center;
+  text-align: center;
+  letter-spacing: 0;
+  text-transform: capitalize;
+  margin: 10px 0;
+    padding-bottom: 15px; 
+  font-family: Raleway-Regular !important;
+  }
+  .content-h4{
+    font-family: Raleway-Medium;
+    font-style: normal;
+    font-weight: var(--font-weight-bold);
+    font-size: var(--font-size-31);
+    color: var(--primary-color2);
+    line-height: 36px;
+    letter-spacing: 0;
+    text-transform: capitalize;
+  }
+  .benefits-col{
+    text-align: center;
+  }

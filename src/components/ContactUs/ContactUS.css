@@ -1,0 +1,75 @@
+.contact-us{
+    background-image: url('../../assets/images/contact us.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+  .contact-us .touch{
+    color: #fff;
+  }
+  
+  .touch .form-control{
+    border: 2px solid #FFFFFF;
+    border-radius: 10px;
+    background-color: transparent;
+    font-family: Raleway-Regular;
+    color: #fff;
+  }
+  .touch .form-select{
+    background-color: transparent;
+    color: #ccc;
+  }
+  .form-label{
+    font-family: Raleway-Medium;
+    color: #fff;
+  }
+  .head-contact{
+    font-family: Raleway-Medium;
+  }
+  .custom-shadow {
+    -webkit-box-shadow: 0 5px 20px 0 rgb(210 210 245 / 50%);
+    box-shadow: 0 5px 20px 0 rgb(210 210 245 / 50%);
+  }
+  .contact-us-promo i{
+    font-size: 5rem;
+    color: #fff;
+    margin-bottom: 1rem;
+  }
+
+  .btn-contact:hover {
+    color: var(--accent-color);
+    background-color: transparent;
+   
+    cursor: pointer;
+    transform: scale(1.3);
+    transition: transform 2s;
+  
+  }
+
+  .s{
+    padding: 2rem 0 !important;
+  }
+
+  .contactHead{
+    font-size: 36px;
+    font-family: Raleway-Mediuam;
+  }
+  .form-box{
+    box-shadow: rgb(39, 7, 68) 0px 3px 8px;
+  }
+  .form-box form{
+    padding: 30px 10px;
+  }
+  .contact-us form .form-control{
+    background-color: transparent;
+    border: 1px dashed #FFFFFF;
+    color: #fff;
+    opacity: .8;
+  }
+  .contact-us form .form-control:focus{
+    color: var(--accent-color);
+  }
+  .contact-us form .form-control::placeholder{
+    color: #fff;
+    text-transform: capitalize;
+  }
