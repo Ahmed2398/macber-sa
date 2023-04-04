@@ -14,7 +14,7 @@ const Footer = () => {
     <section className=''>
       <MDBContainer className='text-center text-md-start mt-5'>
         <MDBRow className='mt-3'>
-          <MDBCol md='3' lg='3' xl='3' className='mx-auto mb-4 '>
+          <MDBCol md='3' lg='3' xl='3' className='mx-auto mb-4'>
             <NavLink to={'/'}> <img src={logo}/></NavLink>
 
             <SocialMedia/>
@@ -67,7 +67,7 @@ const Footer = () => {
             <h6 className='text-uppercase fw-bold mb-4'>Contact</h6>
             <p className='text-white'>
               <MDBIcon color='secondary' icon='home' className='me-2' />
-              2329 Makkah Al Mukarramah Branch Road, Al Rabwah, Riyadh Saudi Arabia
+              Building 2, Ground Floor, Apt. 1, Talaat Harb Axis, District 3, Area 4, Fifth settlement, New Cairo, Egypt
             </p>
             <p className='text-white'>
               <MDBIcon color='secondary' icon='envelope' className='me-3' />

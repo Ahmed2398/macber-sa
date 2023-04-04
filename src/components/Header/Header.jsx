@@ -29,6 +29,7 @@ const Header = () => {
               height='100'
               alt=''
               loading='lazy'
+
             />
           </NavLink>
           </MDBNavbarBrand>

@@ -7,6 +7,9 @@
     position: relative;
     /* width: 350px; */
   }
+.box-work img{
+  height: 17vh;
+}
   .text-box-work{
     line-height: 1.1;
     font-size: 13px;

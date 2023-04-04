@@ -10,6 +10,8 @@ import OfficeList from '../components/Office/OfficeList';
 import OurWorksList from '../components/OurWorks/OurWorksList';
 import Clients from "../components/Clients/Clients";
 import Services from "../components/Services/Services";
+import Videos from "../components/Videos/Videos";
+import VideosList from "../components/Videos/VideosList";
 const Home = () => {
    
   return (
@@ -20,6 +22,7 @@ const Home = () => {
       <Services/>
     <ProcessList/>
       <OurWorksList/>
+      <VideosList/>
       <ContactUs/>
     {/*<TeamList/>*/}
     <OfficeList/>

@@ -1,8 +1,9 @@
-import ios from '../assets/images/services/s1.svg';
-import flutter from '../assets/images/services/s2.svg';
-import web from '../assets/images/services/web-development(1).png';
-import game from '../assets/images/services/s3.svg';
-import ux from '../assets/images/services/ux-design.png';
+import ios from '../assets/images/services/ios.png';
+import flutter from '../assets/images/services/flutter.png';
+import web from '../assets/images/services/web.png';
+import game from '../assets/images/services/game.png';
+import ux from '../assets/images/services/Ux.png';
+import android from '../assets/images/services/android.png';
 
 
 export const services = [
@@ -28,7 +29,7 @@ export const services = [
         id: 4,
         name: 'Android Development',
         text: 'We have extensive experience in developing android apps with high performance, whether it is enterprise apps, innovative consumer-focused apps, or games.',
-        img: flutter
+        img: android
     },
     {
         id: 5,

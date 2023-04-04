@@ -145,6 +145,9 @@
     .content_container{
         display: block !important;
     }
+    .box-work img{
+        height: auto;
+    }
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
@@ -155,6 +158,9 @@
     .list-icons{
         display: flex;
         justify-content: space-between;
+    }
+    .box-work img{
+        height: auto;
     }
 }
 
