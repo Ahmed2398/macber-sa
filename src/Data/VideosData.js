@@ -1,7 +1,7 @@
 export const videos = [
     {
-      id:1,
-      src:'https://www.youtube.com/embed/DD_r2ow1cu4',
+        id:1,
+        src:'https://www.youtube.com/embed/DD_r2ow1cu4',
     },
     {
         id:2,
@@ -19,4 +19,8 @@ export const videos = [
         id:5,
         src:'https://www.youtube.com/embed/GWfaSVzfQ7w'
     },
+    {
+        id:6,
+        src: 'https://www.youtube.com/embed/RVRQjndwCqI'
+    }
 ]
