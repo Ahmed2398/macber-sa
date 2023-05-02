@@ -11,7 +11,7 @@ const Services = () => {
             <motion.section
                 whileInView={{ opacity: [0, 1] }}
                 transition={{ duration: 1, type: 'tween' }}
-                className="faq ptb-60 "
+                className="faq ptb-60 services-display "
             >
                 <Container>
                     <Row>

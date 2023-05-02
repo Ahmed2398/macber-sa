@@ -9,9 +9,6 @@ import royald from '../assets/images/apps/royalDetails.png'
 import hatd from '../assets/images/apps/hatDetails.png'
 import goldd from '../assets/images/apps/goldenDetails.png'
 import hopd from '../assets/images/apps/hopdetails.png'
-
-
-
 export const projects = [
     {
         id: 1,

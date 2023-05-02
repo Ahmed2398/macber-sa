@@ -13,7 +13,7 @@ export const offices = [
         address:'Ground Floor، District 3, Area 2, Talaat Harb Axis Apt. 2, Cairo Governorate',
         img:egypt,
         mapLink:"https://goo.gl/maps/csBszafSWWUm2gAH7",
-        link:"https://www.google.com"
+        link:"https://www.macber-eg.com/"
     },
     {
         id:2,
@@ -23,7 +23,7 @@ export const offices = [
             'London, UK, WC2A 2JR',
         img:London,
         mapLink:"https://goo.gl/maps/jmmnKKnpt4BYpaH3A",
-        link:"https://www.google.com"
+        // link:"https://www.google.com"
     },
     // {
     //     id:3,
@@ -38,6 +38,6 @@ export const offices = [
             'Saudi Arabia',
         img:Sa,
         mapLink:"https://goo.gl/maps/2j4a1YZkDzbErG6j8",
-        link:"https://www.google.com"
+        link:"http://shbkatksa.com/"
     },
 ]

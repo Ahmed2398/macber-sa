@@ -17,7 +17,7 @@ const Office = ({country, address, img, link, mapLink}) => {
   return (
     <>
 
-        <a href="https://www.google.com" target="_blank">
+        <a href={link} target="_blank">
    <MDBCard className="h-100">
         <MDBCardImage src={img} fluid alt={country} className="rounded" />
       <MDBCardBody className='text-center office-body'>

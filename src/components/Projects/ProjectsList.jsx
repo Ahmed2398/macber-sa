@@ -28,39 +28,22 @@ const ProjectsList = () => {
 
             <div className="app_container">
                 <div className="content_container">
-
             {projects.map((project,index)=>{
                 return(
                     <MDBCard className="h-100">
                         <MDBCardImage src={project.imgCard} fluid alt={project.title} className="rounded" />
-
                         <MDBCardBody className='text-center office-body'>
                             <div className='d-flex justify-content-center'>
                                 <MDBCardTitle className='mx-3'>{project.title}</MDBCardTitle>
                             </div>
-
-                            <MDBCardText className=" p-card ">
+                            <MDBCardText className="p-card">
                                 {project.description}
                             </MDBCardText>
                             <div className="my-3">
                                 <button className="btn btn-purble my-1"  onClick={()=> changecontent(project)}>details</button>
-
                             </div>
                         </MDBCardBody>
                     </MDBCard>
-
-                        // <div className="content-card my-3 h-100">
-                        //     <img src={project.imgCard} alt={project.title} className="card-img"/>
-                        //     <h2 className="text-center my-3 f-20 fw-bold">{project.title}</h2>
-                        //     <p className="text-center my-3 f-18 fw-bold">{project.description}</p>
-                        //     <div className="h-100">
-                        //         <button className="btn btn-purble my-1" onClick={()=> changecontent(project)}>details</button>
-                        //
-                        //     </div>
-                        // </div>
-
-
-
             );
             })}
                 </div>

@@ -24,7 +24,7 @@ const VideosList = () => {
                         {videos.map((video, index)=>{
                             const {id, src} = video;
                             return(
-                                <Col key={index}  lg={4} md={6} sm={12}>
+                                <Col key={index}  lg={4} md={6} sm={6}>
                                    <Videos id={id} src={src} />
                                 </Col>
                             )

@@ -1,19 +1,24 @@
 /* our work */
 .box-work{
-    background: #FCF9FF;
+    /*background: #FCF9FF;*/
     /*box-shadow: 0px 0px 13px #DED6E8;*/
-  box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
-    border-radius: 9px;
+  /*box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;*/
+  /*  border-radius: 9px;*/
     position: relative;
     /* width: 350px; */
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  padding: 5px;
   }
 .box-work img{
-  height: 17vh;
+  /*height: 17vh;*/
 }
   .text-box-work{
     line-height: 1.1;
     font-size: 13px;
     text-align: left;
+  }
+  .box-work .btn{
+    padding: 0;
   }
   .box-work h4{
     color: var(--primary-color1) !important;

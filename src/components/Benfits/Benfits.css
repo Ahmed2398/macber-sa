@@ -2,13 +2,13 @@
   background-color: #f8f9fa !important;
 }
 .about-content-head{
-    /*background: linear-gradient(296.7deg, #45108A -5.17%, #3D0661 42.59%, #3D065F 42.6%, #200554 168.23%);*/
-   background: var(--primary-color1);
+    background: var(--primary-color1);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
     text-fill-color: transparent;
     font-family: Raleway-Bold;
+  color: var(--primary-color1) !important;
    
   }
   .about-content{

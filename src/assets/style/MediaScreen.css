@@ -143,11 +143,13 @@
         right: 5px;
     }
     .content_container{
-        display: block !important;
+        display: grid !important;
+        grid-template-columns: repeat(2,1fr) !important;
     }
     .box-work img{
         height: auto;
     }
+
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
@@ -161,6 +163,10 @@
     }
     .box-work img{
         height: auto;
+    }
+    .content_container{
+        display: grid !important;
+        grid-template-columns: repeat(2,1fr) ;
     }
 }
 

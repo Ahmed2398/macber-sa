@@ -21,15 +21,14 @@ const Header = () => {
     <>
       
       <MDBNavbar expand='lg'  >
-        <MDBContainer fluid>
+        <MDBContainer fluid className="nav-container"  >
         <MDBNavbarBrand href={`/home`}>
           <NavLink to={'/'}>
             <img
               src={logo}
-              height='100'
+              height='50'
               alt=''
               loading='lazy'
-
             />
           </NavLink>
           </MDBNavbarBrand>
@@ -39,6 +38,7 @@ const Header = () => {
             aria-expanded='false'
             aria-label='Toggle navigation'
           >
+
             <MDBIcon fas icon='bars' />
           </MDBNavbarToggler>
           <MDBCollapse navbar show={showBasic}>
